@@ -491,18 +491,21 @@ img {
   max-width: 90%;
   gap: 1.5rem;
   grid-template-columns: repeat(1, 1fr);
+ 
 }
 
 .services__content {
   border-radius: 11px;
   padding: 2rem 4rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
   column-gap: 2rem;
   box-shadow: 0 8px 16px rgb(0, 0, 0, 0.15);
   margin-bottom: 3rem;
+ 
 }
+
 
 .services__content video {
   height: 19rem;
@@ -723,7 +726,10 @@ img {
     grid-template-columns: max-content;
     justify-content: center;
   }
-
+  .services__content {
+    grid-template-columns: repeat(1, 1fr);
+   
+  }
   .services__modal {
     padding: 0 0.5rem;
   }
@@ -881,6 +887,10 @@ img {
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
   }
+  .services__content{
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
 
   .project__data {
     padding-top: 0.8rem;
@@ -926,7 +936,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(1, 238px);
+    grid-template-columns: repeat(2, 238px);
   }
 
   .portfolio__content {
